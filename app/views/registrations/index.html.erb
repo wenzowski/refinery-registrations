@@ -1,0 +1,32 @@
+<% content_for :body_content_left do %>
+
+  <% if @registration && @registration.paid %>
+    <div class="flash flash_alert">
+      <% if @registration.fee? %>
+        <p><%= "Thank you for your payment of #{@registration.fee_amount.format}"%></p>
+      <% end %>
+      <% if @registration.parent.email %>
+        <p><%= "We will contact you at #{@registration.parent.email} to confirm registration details."%></p>
+      <% end %>
+    </div>
+  <% end %>
+
+  <%= render partial: 'registration_sessions/fees', locals: { registration_session: RegistrationSession.next } -%>
+
+  <% if @registration && @registration.registration_session %>
+    <h4>Accepting applications for the <%= @registration.registration_session %></h4>
+    <%= render partial: 'child_registrations/form', locals: { child_registration: @registration.child_registrations.new, registration: @registration } %>
+    <%= render partial: 'child_registrations/list', locals: { child_registrations: @registration.child_registrations } %>
+    <div id="subtotal">
+      <%= "Registration & Activity Fee: #{@registration.fee_amount.format}" if @registration.fee? %>
+    </div>
+    <div id="parent">
+      <%= link_to 'continue', edit_registration_path(@registration) if @registration.id && !@registration.paid %>
+    </div>
+  <% else %>
+    <h4>Not currently accepting applications.</h4>
+  <% end %>
+
+<% end %>
+
+<%= render partial: "/shared/content_page" %>

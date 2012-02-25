@@ -1,0 +1,125 @@
+---
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    fees:
+      title: Fees
+    educational_stages:
+      title: Educational Stages
+    child_registrations:
+      title: Child Registrations
+    children:
+      title: Children
+    registration_sessions:
+      title: Registration Sessions
+    registrations:
+      title: Registrations
+  admin:
+    fees:
+      actions:
+        create_new: Add New Fee
+        reorder: Reorder Fees
+        reorder_done: Done Reordering Fees
+      records:
+        title: Fees
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Fees yet. Click "Add New Fee" to add your first
+          fee.
+      fee:
+        view_live_html: View this fee live <br/><em>(opens in a new window)</em>
+        edit: Edit this fee
+        delete: Remove this fee forever
+    educational_stages:
+      actions:
+        create_new: Add New Educational Stage
+        reorder: Reorder Educational Stages
+        reorder_done: Done Reordering Educational Stages
+      records:
+        title: Educational Stages
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Educational Stages yet. Click "Add New Educational
+          Stage" to add your first educational stage.
+      educational_stage:
+        view_live_html: View this educational stage live <br/><em>(opens in a new
+          window)</em>
+        edit: Edit this educational stage
+        delete: Remove this educational stage forever
+    child_registrations:
+      actions:
+        create_new: Add New Child Registration
+        reorder: Reorder Child Registrations
+        reorder_done: Done Reordering Child Registrations
+      records:
+        title: Child Registrations
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Child Registrations yet. Click "Add New Child Registration"
+          to add your first child registration.
+      child_registration:
+        view_live_html: View this child registration live <br/><em>(opens in a new
+          window)</em>
+        edit: Edit this child registration
+        delete: Remove this child registration forever
+    children:
+      actions:
+        create_new: Add New Child
+        reorder: Reorder Children
+        reorder_done: Done Reordering Children
+      records:
+        title: Children
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Children yet. Click "Add New Child" to add your
+          first child.
+      child:
+        view_live_html: View this child live <br/><em>(opens in a new window)</em>
+        edit: Edit this child
+        delete: Remove this child forever
+    registration_sessions:
+      actions:
+        create_new: Add New Registration Session
+        reorder: Reorder Registration Sessions
+        reorder_done: Done Reordering Registration Sessions
+      records:
+        title: Registration Sessions
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Registration Sessions yet. Click "Add New Registration
+          Session" to add your first registration session.
+      registration_session:
+        view_live_html: View this registration session live <br/><em>(opens in a new
+          window)</em>
+        edit: Edit this registration session
+        delete: Remove this registration session forever
+    registrations:
+      actions:
+        create_new: Add New Registration
+        reorder: Reorder Registrations
+        reorder_done: Done Reordering Registrations
+      records:
+        title: Registrations
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Registrations yet. Click "Add New Registration"
+          to add your first registration.
+      registration:
+        view_live_html: View this registration live <br/><em>(opens in a new window)</em>
+        edit: Edit this registration
+        delete: Remove this registration forever
+  fees:
+    show:
+      other: Other Fees
+  educational_stages:
+    show:
+      other: Other Educational Stages
+  child_registrations:
+    show:
+      other: Other Child Registrations
+  children:
+    show:
+      other: Other Children
+  registration_sessions:
+    show:
+      other: Other Registration Sessions
+  registrations:
+    show:
+      other: Other Registrations

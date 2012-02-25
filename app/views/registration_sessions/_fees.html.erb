@@ -1,0 +1,35 @@
+<% registration_session.each do |s| %>
+  <div class="registration-session">
+    <div class="session">
+      <%= s %> Registration &amp; Activity Fees:
+    </div>
+    <div class="price">
+      <ul class="educational-stages">
+        <% EducationalStage.all.each do |stage| %>
+          <li>
+            <ul class="educational-stage">
+              <li>
+                <%= stage %>
+              </li>
+              <li>
+                <%= stage.reduced_registration_amount.format %>
+              </li>
+              <li>
+                <%= stage.regular_registration_amount.format %>
+              </li>
+            </ul>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="price-status">
+      <% if s.early_price? %>
+        early registration ends on <%= s.early_registration_end %>
+      <% elsif s.normal_price? %>
+        early registration closed
+      <% else %>
+        registration closed
+      <% end %>
+    </div>
+  </div>
+<% end %>

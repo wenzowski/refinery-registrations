@@ -1,0 +1,12 @@
+<%= form_for @child do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+          :object => @child,
+          :include_object_name => true
+        } %>
+
+  <div class='field'>
+    <%= f.label :name -%>
+    <%= f.text_field :name  -%>
+  </div>
+
+<% end -%>

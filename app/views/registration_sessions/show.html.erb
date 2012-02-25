@@ -1,0 +1,51 @@
+<% content_for :body_content_title do %>
+  <%= @registration_session.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Begin</h1>
+    <p>
+      <%=raw @registration_session.begin %>
+    </p>
+  </section>
+  <section>
+    <h1>End</h1>
+    <p>
+      <%=raw @registration_session.end %>
+    </p>
+  </section>
+  <section>
+    <h1>Registration Begin</h1>
+    <p>
+      <%=raw @registration_session.registration_begin %>
+    </p>
+  </section>
+  <section>
+    <h1>Registration End</h1>
+    <p>
+      <%=raw @registration_session.registration_end %>
+    </p>
+  </section>
+  <section>
+    <h1>Early Registration End</h1>
+    <p>
+      <%=raw @registration_session.early_registration_end %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="registration_sessions">
+      <% @registration_sessions.each do |registration_session| %>
+        <li>
+          <%= link_to registration_session.title, registration_session_path(registration_session) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

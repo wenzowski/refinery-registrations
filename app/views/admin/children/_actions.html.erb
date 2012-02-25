@@ -1,0 +1,28 @@
+<ul>
+  <% if Admin::ChildrenController.searchable? %>
+    <li>
+      <%= render :partial => "/shared/admin/search",
+                  :locals => {
+                    :url => admin_children_path
+                  } %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), new_admin_child_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? and Admin::ChildrenController.sortable? and Child.count > 1 %>
+  <li>
+    <%= link_to t('.reorder', :what => "Children"),
+                 admin_children_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Children"),
+                 admin_children_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

@@ -1,0 +1,128 @@
+---
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    fees:
+      title: Fees
+    educational_stages:
+      title: Educational Stages
+    child_registrations:
+      title: Child Registrations
+    children:
+      title: Children
+    registration_sessions:
+      title: Registration Sessions
+    registrations:
+      title: Registrations
+  admin:
+    fees:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Fee
+        reorder: Réordonner les Fees
+        reorder_done: Fin de réordonnancement des Fees
+      records:
+        title: Fees
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Fee. Cliquer sur "Créer un(e)
+          nouve(au/l/lle) Fee" pour créer votre premi(er/ère) fee.
+      fee:
+        view_live_html: Voir ce(t/tte) fee <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) fee
+        delete: Supprimer définitivement ce(t/tte) fee
+    educational_stages:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Educational Stage
+        reorder: Réordonner les Educational Stages
+        reorder_done: Fin de réordonnancement des Educational Stages
+      records:
+        title: Educational Stages
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Educational Stage. Cliquer sur
+          "Créer un(e) nouve(au/l/lle) Educational Stage" pour créer votre premi(er/ère)
+          educational stage.
+      educational_stage:
+        view_live_html: Voir ce(t/tte) educational stage <br/><em>(Ouvre une nouvelle
+          fenêtre)</em>
+        edit: Modifier ce(t/tte) educational stage
+        delete: Supprimer définitivement ce(t/tte) educational stage
+    child_registrations:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Child Registration
+        reorder: Réordonner les Child Registrations
+        reorder_done: Fin de réordonnancement des Child Registrations
+      records:
+        title: Child Registrations
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Child Registration. Cliquer sur
+          "Créer un(e) nouve(au/l/lle) Child Registration" pour créer votre premi(er/ère)
+          child registration.
+      child_registration:
+        view_live_html: Voir ce(t/tte) child registration <br/><em>(Ouvre une nouvelle
+          fenêtre)</em>
+        edit: Modifier ce(t/tte) child registration
+        delete: Supprimer définitivement ce(t/tte) child registration
+    children:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Child
+        reorder: Réordonner les Children
+        reorder_done: Fin de réordonnancement des Children
+      records:
+        title: Children
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Child. Cliquer sur "Créer un(e)
+          nouve(au/l/lle) Child" pour créer votre premi(er/ère) child.
+      child:
+        view_live_html: Voir ce(t/tte) child <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) child
+        delete: Supprimer définitivement ce(t/tte) child
+    registration_sessions:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Registration Session
+        reorder: Réordonner les Registration Sessions
+        reorder_done: Fin de réordonnancement des Registration Sessions
+      records:
+        title: Registration Sessions
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Registration Session. Cliquer
+          sur "Créer un(e) nouve(au/l/lle) Registration Session" pour créer votre
+          premi(er/ère) registration session.
+      registration_session:
+        view_live_html: Voir ce(t/tte) registration session <br/><em>(Ouvre une nouvelle
+          fenêtre)</em>
+        edit: Modifier ce(t/tte) registration session
+        delete: Supprimer définitivement ce(t/tte) registration session
+    registrations:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Registration
+        reorder: Réordonner les Registrations
+        reorder_done: Fin de réordonnancement des Registrations
+      records:
+        title: Registrations
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Registration. Cliquer sur "Créer
+          un(e) nouve(au/l/lle) Registration" pour créer votre premi(er/ère) registration.
+      registration:
+        view_live_html: Voir ce(t/tte) registration <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) registration
+        delete: Supprimer définitivement ce(t/tte) registration
+  fees:
+    show:
+      other: Autres Fees
+  educational_stages:
+    show:
+      other: Autres Educational Stages
+  child_registrations:
+    show:
+      other: Autres Child Registrations
+  children:
+    show:
+      other: Autres Children
+  registration_sessions:
+    show:
+      other: Autres Registration Sessions
+  registrations:
+    show:
+      other: Autres Registrations

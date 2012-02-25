@@ -1,0 +1,24 @@
+<%= form_for [:admin, @registration] do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+          :object => @registration,
+          :include_object_name => true
+        } %>
+
+  <div class='field'>
+    <%= f.label :registration_session_id -%>
+    <%= f.text_field :registration_session_id, :class => 'larger widest'  -%>
+  </div>
+
+  <div class='field'>
+    <%= f.label :parent_id -%>
+    <%= f.text_field :parent_id  -%>
+  </div>
+
+  <%= render :partial => "/shared/admin/form_actions",
+              :locals => {
+                :f => f,
+                :continue_editing => false,
+                :delete_title => t('delete', :scope => 'admin.registrations.registration'),
+                :delete_confirmation => t('message', :scope => 'shared.admin.delete')
+              } %>
+<% end -%>

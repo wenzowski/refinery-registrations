@@ -1,0 +1,25 @@
+<%= form_for child_registration do |f| -%>
+
+  <%= f.fields_for :child, Child.new do |f| -%>
+
+    <div class='field'>
+      <%= f.label :name, "Child's full name" -%>
+      <%= f.text_field :name  -%>
+    </div>
+
+  <% end -%>
+
+  <div class='field'>
+    <%= f.label :educational_stage_id -%>
+    <%= f.collection_select :educational_stage_id, EducationalStage.all, :id, :name  -%>
+  </div>
+
+  <div class='form-actions'>
+    <div class='form-actions-left'>
+      <%= f.submit 'add child to application' -%>
+    </div>
+    <div class='form-actions-right'>
+      <% link_to registrations_path -%>
+    </div>
+  </div>
+<% end -%>

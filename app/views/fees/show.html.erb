@@ -1,0 +1,45 @@
+<% content_for :body_content_title do %>
+  <%= @fee.currency %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Cents</h1>
+    <p>
+      <%=raw @fee.cents %>
+    </p>
+  </section>
+  <section>
+    <h1>Currency</h1>
+    <p>
+      <%=raw @fee.currency %>
+    </p>
+  </section>
+  <section>
+    <h1>Billable</h1>
+    <p>
+      <%=raw @fee.billable_id %>
+    </p>
+  </section>
+  <section>
+    <h1>Billable Type</h1>
+    <p>
+      <%=raw @fee.billable_type %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="fees">
+      <% @fees.each do |fee| %>
+        <li>
+          <%= link_to fee.currency, fee_path(fee) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

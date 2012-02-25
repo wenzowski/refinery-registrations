@@ -1,0 +1,5 @@
+<% content_for :body_content_left do %>
+  <%= render partial: 'parents/register_form', locals: { user: @user } %>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

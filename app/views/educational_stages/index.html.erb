@@ -1,0 +1,11 @@
+<% content_for :body_content_left do %>
+  <ul id="educational_stages">
+    <% @educational_stages.each do |educational_stage| %>
+      <li>
+        <%= link_to educational_stage.name, educational_stage_path(educational_stage) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

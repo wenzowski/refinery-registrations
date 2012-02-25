@@ -1,0 +1,124 @@
+---
+nb:
+  plugins:
+    fees:
+      title: Fees
+    educational_stages:
+      title: Educational Stages
+    child_registrations:
+      title: Child Registrations
+    children:
+      title: Children
+    registration_sessions:
+      title: Registration Sessions
+    registrations:
+      title: Registrations
+  admin:
+    fees:
+      actions:
+        create_new: Lag en ny Fee
+        reorder: Endre rekkefølgen på Fees
+        reorder_done: Ferdig å endre rekkefølgen Fees
+      records:
+        title: Fees
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Fees enda. Klikk på "Lag en ny Fee" for å legge
+          til din første fee.
+      fee:
+        view_live_html: Vis hvordan denne fee ser ut offentlig <br/><em>(åpner i et
+          nytt vindu)</em>
+        edit: Rediger denne fee
+        delete: Fjern denne fee permanent
+    educational_stages:
+      actions:
+        create_new: Lag en ny Educational Stage
+        reorder: Endre rekkefølgen på Educational Stages
+        reorder_done: Ferdig å endre rekkefølgen Educational Stages
+      records:
+        title: Educational Stages
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Educational Stages enda. Klikk på "Lag en ny Educational
+          Stage" for å legge til din første educational stage.
+      educational_stage:
+        view_live_html: Vis hvordan denne educational stage ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne educational stage
+        delete: Fjern denne educational stage permanent
+    child_registrations:
+      actions:
+        create_new: Lag en ny Child Registration
+        reorder: Endre rekkefølgen på Child Registrations
+        reorder_done: Ferdig å endre rekkefølgen Child Registrations
+      records:
+        title: Child Registrations
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Child Registrations enda. Klikk på "Lag en ny Child
+          Registration" for å legge til din første child registration.
+      child_registration:
+        view_live_html: Vis hvordan denne child registration ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne child registration
+        delete: Fjern denne child registration permanent
+    children:
+      actions:
+        create_new: Lag en ny Child
+        reorder: Endre rekkefølgen på Children
+        reorder_done: Ferdig å endre rekkefølgen Children
+      records:
+        title: Children
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Children enda. Klikk på "Lag en ny Child" for å
+          legge til din første child.
+      child:
+        view_live_html: Vis hvordan denne child ser ut offentlig <br/><em>(åpner i
+          et nytt vindu)</em>
+        edit: Rediger denne child
+        delete: Fjern denne child permanent
+    registration_sessions:
+      actions:
+        create_new: Lag en ny Registration Session
+        reorder: Endre rekkefølgen på Registration Sessions
+        reorder_done: Ferdig å endre rekkefølgen Registration Sessions
+      records:
+        title: Registration Sessions
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Registration Sessions enda. Klikk på "Lag en ny
+          Registration Session" for å legge til din første registration session.
+      registration_session:
+        view_live_html: Vis hvordan denne registration session ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne registration session
+        delete: Fjern denne registration session permanent
+    registrations:
+      actions:
+        create_new: Lag en ny Registration
+        reorder: Endre rekkefølgen på Registrations
+        reorder_done: Ferdig å endre rekkefølgen Registrations
+      records:
+        title: Registrations
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Registrations enda. Klikk på "Lag en ny Registration"
+          for å legge til din første registration.
+      registration:
+        view_live_html: Vis hvordan denne registration ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne registration
+        delete: Fjern denne registration permanent
+  fees:
+    show:
+      other: Andre Fees
+  educational_stages:
+    show:
+      other: Andre Educational Stages
+  child_registrations:
+    show:
+      other: Andre Child Registrations
+  children:
+    show:
+      other: Andre Children
+  registration_sessions:
+    show:
+      other: Andre Registration Sessions
+  registrations:
+    show:
+      other: Andre Registrations

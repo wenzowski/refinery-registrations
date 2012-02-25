@@ -1,0 +1,39 @@
+<%= form_for [:admin, @registration_session] do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+          :object => @registration_session,
+          :include_object_name => true
+        } %>
+  
+  <div class='field'>
+    <%= f.label :begin -%>
+    <%= f.date_select :begin  -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :end -%>
+    <%= f.date_select :end  -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :registration_begin -%>
+    <%= f.date_select :registration_begin  -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :registration_end -%>
+    <%= f.date_select :registration_end  -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :early_registration_end -%>
+    <%= f.date_select :early_registration_end  -%>
+  </div>
+  
+  <%= render :partial => "/shared/admin/form_actions",
+              :locals => {
+                :f => f,
+                :continue_editing => false,
+                :delete_title => t('delete', :scope => 'admin.registration_sessions.registration_session'),
+                :delete_confirmation => t('message', :scope => 'shared.admin.delete')
+              } %>
+<% end -%>

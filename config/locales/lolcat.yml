@@ -1,0 +1,121 @@
+---
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    fees:
+      title: Fees
+    educational_stages:
+      title: Educational Stages
+    child_registrations:
+      title: Child Registrations
+    children:
+      title: Children
+    registration_sessions:
+      title: Registration Sessions
+    registrations:
+      title: Registrations
+  admin:
+    fees:
+      actions:
+        create_new: CREATE NEW Fee
+        reorder: REORDR Fees
+        reorder_done: DUN REORDERIN Fees
+      records:
+        title: Fees
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Fees YET. CLICK "CREATE NEW Fee" 2 ADD UR FURST fee.
+      fee:
+        view_live_html: VIEW DIS fee LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS fee
+        delete: REMOOV DIS fee FOREVR
+    educational_stages:
+      actions:
+        create_new: CREATE NEW Educational Stage
+        reorder: REORDR Educational Stages
+        reorder_done: DUN REORDERIN Educational Stages
+      records:
+        title: Educational Stages
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Educational Stages YET. CLICK "CREATE NEW Educational
+          Stage" 2 ADD UR FURST educational stage.
+      educational_stage:
+        view_live_html: VIEW DIS educational stage LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS educational stage
+        delete: REMOOV DIS educational stage FOREVR
+    child_registrations:
+      actions:
+        create_new: CREATE NEW Child Registration
+        reorder: REORDR Child Registrations
+        reorder_done: DUN REORDERIN Child Registrations
+      records:
+        title: Child Registrations
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Child Registrations YET. CLICK "CREATE NEW Child Registration"
+          2 ADD UR FURST child registration.
+      child_registration:
+        view_live_html: VIEW DIS child registration LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS child registration
+        delete: REMOOV DIS child registration FOREVR
+    children:
+      actions:
+        create_new: CREATE NEW Child
+        reorder: REORDR Children
+        reorder_done: DUN REORDERIN Children
+      records:
+        title: Children
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Children YET. CLICK "CREATE NEW Child" 2 ADD UR FURST
+          child.
+      child:
+        view_live_html: VIEW DIS child LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS child
+        delete: REMOOV DIS child FOREVR
+    registration_sessions:
+      actions:
+        create_new: CREATE NEW Registration Session
+        reorder: REORDR Registration Sessions
+        reorder_done: DUN REORDERIN Registration Sessions
+      records:
+        title: Registration Sessions
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Registration Sessions YET. CLICK "CREATE NEW Registration
+          Session" 2 ADD UR FURST registration session.
+      registration_session:
+        view_live_html: VIEW DIS registration session LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS registration session
+        delete: REMOOV DIS registration session FOREVR
+    registrations:
+      actions:
+        create_new: CREATE NEW Registration
+        reorder: REORDR Registrations
+        reorder_done: DUN REORDERIN Registrations
+      records:
+        title: Registrations
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Registrations YET. CLICK "CREATE NEW Registration"
+          2 ADD UR FURST registration.
+      registration:
+        view_live_html: VIEW DIS registration LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS registration
+        delete: REMOOV DIS registration FOREVR
+  fees:
+    show:
+      other: OTHR Fees
+  educational_stages:
+    show:
+      other: OTHR Educational Stages
+  child_registrations:
+    show:
+      other: OTHR Child Registrations
+  children:
+    show:
+      other: OTHR Children
+  registration_sessions:
+    show:
+      other: OTHR Registration Sessions
+  registrations:
+    show:
+      other: OTHR Registrations

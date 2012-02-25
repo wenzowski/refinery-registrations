@@ -1,0 +1,124 @@
+---
+nl:
+  plugins:
+    fees:
+      title: Fees
+    educational_stages:
+      title: Educational Stages
+    child_registrations:
+      title: Child Registrations
+    children:
+      title: Children
+    registration_sessions:
+      title: Registration Sessions
+    registrations:
+      title: Registrations
+  admin:
+    fees:
+      actions:
+        create_new: Maak een nieuwe Fee
+        reorder: Wijzig de volgorde van de Fees
+        reorder_done: Klaar met het wijzingen van de volgorde van de Fees
+      records:
+        title: Fees
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Fees. Druk op 'Maak een nieuwe Fee' om de eerste
+          aan te maken.
+      fee:
+        view_live_html: Bekijk deze fee op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze fee
+        delete: Verwijder deze fee voor eeuwig
+    educational_stages:
+      actions:
+        create_new: Maak een nieuwe Educational Stage
+        reorder: Wijzig de volgorde van de Educational Stages
+        reorder_done: Klaar met het wijzingen van de volgorde van de Educational Stages
+      records:
+        title: Educational Stages
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Educational Stages. Druk op 'Maak een nieuwe
+          Educational Stage' om de eerste aan te maken.
+      educational_stage:
+        view_live_html: Bekijk deze educational stage op de website <br/><em>(opent
+          een nieuw venster)</em>
+        edit: Bewerk deze educational stage
+        delete: Verwijder deze educational stage voor eeuwig
+    child_registrations:
+      actions:
+        create_new: Maak een nieuwe Child Registration
+        reorder: Wijzig de volgorde van de Child Registrations
+        reorder_done: Klaar met het wijzingen van de volgorde van de Child Registrations
+      records:
+        title: Child Registrations
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Child Registrations. Druk op 'Maak een nieuwe
+          Child Registration' om de eerste aan te maken.
+      child_registration:
+        view_live_html: Bekijk deze child registration op de website <br/><em>(opent
+          een nieuw venster)</em>
+        edit: Bewerk deze child registration
+        delete: Verwijder deze child registration voor eeuwig
+    children:
+      actions:
+        create_new: Maak een nieuwe Child
+        reorder: Wijzig de volgorde van de Children
+        reorder_done: Klaar met het wijzingen van de volgorde van de Children
+      records:
+        title: Children
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Children. Druk op 'Maak een nieuwe Child' om
+          de eerste aan te maken.
+      child:
+        view_live_html: Bekijk deze child op de website <br/><em>(opent een nieuw
+          venster)</em>
+        edit: Bewerk deze child
+        delete: Verwijder deze child voor eeuwig
+    registration_sessions:
+      actions:
+        create_new: Maak een nieuwe Registration Session
+        reorder: Wijzig de volgorde van de Registration Sessions
+        reorder_done: Klaar met het wijzingen van de volgorde van de Registration
+          Sessions
+      records:
+        title: Registration Sessions
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Registration Sessions. Druk op 'Maak een nieuwe
+          Registration Session' om de eerste aan te maken.
+      registration_session:
+        view_live_html: Bekijk deze registration session op de website <br/><em>(opent
+          een nieuw venster)</em>
+        edit: Bewerk deze registration session
+        delete: Verwijder deze registration session voor eeuwig
+    registrations:
+      actions:
+        create_new: Maak een nieuwe Registration
+        reorder: Wijzig de volgorde van de Registrations
+        reorder_done: Klaar met het wijzingen van de volgorde van de Registrations
+      records:
+        title: Registrations
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Registrations. Druk op 'Maak een nieuwe Registration'
+          om de eerste aan te maken.
+      registration:
+        view_live_html: Bekijk deze registration op de website <br/><em>(opent een
+          nieuw venster)</em>
+        edit: Bewerk deze registration
+        delete: Verwijder deze registration voor eeuwig
+  fees:
+    show:
+      other: Andere Fees
+  educational_stages:
+    show:
+      other: Andere Educational Stages
+  child_registrations:
+    show:
+      other: Andere Child Registrations
+  children:
+    show:
+      other: Andere Children
+  registration_sessions:
+    show:
+      other: Andere Registration Sessions
+  registrations:
+    show:
+      other: Andere Registrations
