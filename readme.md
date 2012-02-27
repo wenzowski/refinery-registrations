@@ -1,10 +1,7 @@
-# Registrations engine for Refinery CMS.
+# Refinery CMS Registrations engine for campcalvarynj.com
 
-## How to build this engine as a gem
+## This engine requires the jquery_ujs adapter
 
-    cd vendor/engines/registrations
-    gem build refinerycms-registrations.gemspec
-    gem install refinerycms-registrations.gem
-    
-    # Sign up for a http://rubygems.org/ account and publish the gem
-    gem push refinerycms-registrations.gem
+Install this engine using Bundler:
+
+    gem 'refinerycms-registrations',  '~> 0.0.1.beta',    git: 'git://github.com/wenzowski/refinery-registrations.git'
